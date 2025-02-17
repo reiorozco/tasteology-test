@@ -1,11 +1,13 @@
-import { Button, Flex, Text } from "@radix-ui/themes";
+import { Flex } from "@radix-ui/themes";
+import ImageTextBlock from "@/app/ImageTextBlock";
+import ThreeCardsBlock from "@/app/ThreeCardsBlock";
 
 export default function Home() {
   return (
-    <Flex direction="column" gap="2">
-      <Text>Hello from Radix Themes :)</Text>
+    <Flex className="size-full" direction="column" gap="2">
+      <ImageTextBlock />
 
-      <Button>Let's go</Button>
+      <ThreeCardsBlock />
     </Flex>
   );
 }
