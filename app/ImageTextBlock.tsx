@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import { Box, Grid } from "@radix-ui/themes";
 import ImageTextContent from "@/app/ImageTextContent";
 import GalleryCarousel from "@/app/components/GalleryCarousel";
+import ImageModal from "@/app/components/ImageModal";
 
 function ImageTextBlock() {
   return (
@@ -21,15 +21,15 @@ function ImageTextBlock() {
         display={{ initial: "none", sm: "grid" }}
       >
         <Box className="row-span-2" position="relative">
-          <Image src="/images/left-image.png" alt="recipe image" fill />
+          <ImageModal imageSrc="/images/left-image.png" />
         </Box>
 
         <Box position="relative">
-          <Image src="/images/right-top-image.png" alt="recipe image" fill />
+          <ImageModal imageSrc="/images/right-top-image.png" />
         </Box>
 
         <Box position="relative">
-          <Image src="/images/right-bottom-image.png" alt="recipe image" fill />
+          <ImageModal imageSrc="/images/right-bottom-image.png" />
         </Box>
       </Grid>
 
