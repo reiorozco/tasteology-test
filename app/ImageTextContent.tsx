@@ -11,7 +11,7 @@ export default function ImageTextContent() {
     <Box className="md:col-span-3">
       <Headline title="What does cooking mean?" />
 
-      <Text weight="light" color="gray">
+      <Text as="p" weight="light" color="gray" className="line-clamp-[15]">
         {content}
       </Text>
 

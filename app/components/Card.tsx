@@ -12,7 +12,7 @@ interface Props {
 function Card({ title, content, imageSrc }: Props) {
   return (
     <Flex direction="column" align="center" gap="5">
-      <Box className="w-full relative max-w-sm mx-auto h-auto ">
+      <Box className="w-full relative max-w-sm mx-auto h-auto">
         <Image
           src={imageSrc}
           alt="card image"
@@ -28,7 +28,7 @@ function Card({ title, content, imageSrc }: Props) {
       </Box>
 
       <Box>
-        <Heading size="4" mb="1" weight="medium" align="center">
+        <Heading as="h6" size="4" mb="1" weight="medium" align="center">
           {title}
         </Heading>
 

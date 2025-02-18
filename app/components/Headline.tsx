@@ -9,7 +9,7 @@ interface Props {
 export default function Headline({ title, align = "left" }: Props) {
   return (
     <>
-      <Heading weight="light" className="uppercase" align={align}>
+      <Heading as="h1" weight="light" className="uppercase" align={align}>
         {title}
       </Heading>
 
