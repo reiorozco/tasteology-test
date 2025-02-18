@@ -26,7 +26,7 @@ const tasteTheColours = [
 
 function ThreeCardsBlock() {
   return (
-    <Flex direction="column" className="p-10">
+    <Flex direction="column" className="py-16 px-20">
       <Box width="30%" className="self-center">
         <Headline title="Taste the colours" align="center" />
       </Box>

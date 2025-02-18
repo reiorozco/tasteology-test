@@ -8,7 +8,7 @@ const content =
 
 export default function ImageTextContent() {
   return (
-    <Box className="col-span-3">
+    <Box className="md:col-span-3">
       <Headline title="What does cooking mean?" />
 
       <Text weight="light" color="gray">
