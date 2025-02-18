@@ -23,7 +23,7 @@ function ImageTextBlock() {
         display={{ initial: "none", sm: "grid" }}
       >
         <Box className="row-span-2" position="relative">
-          <ImageModal imageSrc="/images/left-image.png" />
+          <ImageModal imageSrc="/images/left-image.png" priority />
         </Box>
 
         <Box position="relative">
