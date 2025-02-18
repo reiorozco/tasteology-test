@@ -22,7 +22,7 @@ function Card({ title, content, imageSrc }: Props) {
         />
 
         <Link
-          href="#"
+          href="/"
           className="absolute w-full h-full top-0 left-0 bg-white opacity-0 z-10 transition-opacity duration-300 hover:opacity-15"
         />
       </Box>

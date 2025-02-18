@@ -1,8 +1,10 @@
 import React from "react";
 import { Box, Grid } from "@radix-ui/themes";
-import ImageTextContent from "@/app/ImageTextContent";
-import GalleryCarousel from "@/app/components/GalleryCarousel";
-import ImageModal from "@/app/components/ImageModal";
+import {
+  GalleryCarousel,
+  ImageModal,
+  ImageTextContent,
+} from "@/app/components";
 
 function ImageTextBlock() {
   return (

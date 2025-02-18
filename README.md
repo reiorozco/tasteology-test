@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Modern responsive interface built with Next.js, Tailwind CSS, and TypeScript.**
+## Technologies and Libraries Used
+- **Next.js**       was chosen to take advantage of Server-Side Rendering (SSR), which improves performance, SEO, and initial load times. It also makes it easy to integrate interactive client-side components using the `use client` directive only where needed.
 
-## Getting Started
+- **Tailwind CSS**    is used for its utility-first approach, which speeds up styling and simplifies the creation of responsive designs. Its predefined classes help maintain clean and consistent CSS throughout the project.
 
-First, run the development server:
+- **TypeScript**    was selected to provide static typing, which enhances code robustness and maintainability. It helps catch errors during compilation and facilitates collaborative development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Prettier**    is integrated to ensure consistent code formatting, making the codebase easier to read and maintain.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Swiper**    is used to implement a carousel for presenting an image gallery on mobile devices. It is ideal for touch interfaces and optimizes the mobile user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Radix UI**    was chosen for its accessible, customizable components, which simplify the implementation of modals, buttons, and other interactive elements. It helps ensure that our UI adheres to modern accessibility standards.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Features
 
-## Learn More
+- **Mobile Carousel:**  
+  A carousel (implemented with Swiper) displays an image gallery on mobile devices. On large (lg) devices, the layout switches to a different presentation suitable for wider screens.
 
-To learn more about Next.js, take a look at the following resources:
+- **CSS Effects:**  
+  Hover effects and smooth transitions have been implemented to enhance interactivity and provide a visually engaging experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Semantic HTML5:**  
+  The project adheres to modern HTML5 standards using semantic tags (such as `<header>`, `<main>`, `<section>`, `<article>`, and `<footer>`) to improve SEO and accessibility.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Event Logging:**  
+  JavaScript is used to capture click events on all `<a>` elements and log the clicked element to the console. This functionality is implemented in interactive components marked with `use client`.
 
-## Deploy on Vercel
+- **Responsive Design:**  
+  The application is fully responsive and displays correctly on devices as narrow as 320px, thanks to Tailwind CSS and media queries.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Image Modals:**  
+  Images open in a modal when clicked, using Radix UI components to ensure both accessibility and usability.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## How to Run the Project
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Git](https://git-scm.com/)
+
+### Installation Instructions
+
+1. **Install the dependencies:**
+   ```bash
+      npm install
+2. **Start the development server:**
+     ```bash
+      npm run dev
+This will launch the Next.js development server. You can view the application at http://localhost:3000.
+
+3. **Build for production (optional):**
+   ```bash
+      npm run build
+      npm start

@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Flex, Grid } from "@radix-ui/themes";
-import Headline from "@/app/components/Headline";
-import Card from "@/app/components/Card";
+import { Card, Headline } from "@/app/components";
 
 const tasteTheColours = [
   {
