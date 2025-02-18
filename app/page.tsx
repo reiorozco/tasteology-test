@@ -4,7 +4,7 @@ import ThreeCardsBlock from "@/app/ThreeCardsBlock";
 
 export default function Home() {
   return (
-    <Flex className="size-full" direction="column" gap="2">
+    <Flex direction="column" gap="2">
       <ImageTextBlock />
 
       <ThreeCardsBlock />
