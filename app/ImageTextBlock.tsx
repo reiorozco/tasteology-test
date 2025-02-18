@@ -7,10 +7,10 @@ import GalleryCarousel from "@/app/components/GalleryCarousel";
 function ImageTextBlock() {
   return (
     <Grid
-      columns={{ initial: "1", md: "10" }}
-      py={{ initial: "2", sm: "4", md: "4.5rem" }}
-      px={{ initial: "3", sm: "6", md: "5rem" }}
-      height={{ initial: "auto", lg: "44rem" }}
+      columns={{ initial: "1", sm: "10" }}
+      py={{ initial: "2", sm: "6", md: "4.5rem" }}
+      px={{ initial: "3", sm: "8", md: "5rem" }}
+      height={{ initial: "auto", md: "44rem" }}
       gap="4"
     >
       <Grid
@@ -18,7 +18,7 @@ function ImageTextBlock() {
         rows="2"
         className="col-span-7"
         gap="2"
-        display={{ initial: "none", md: "grid" }}
+        display={{ initial: "none", sm: "grid" }}
       >
         <Box className="row-span-2" position="relative">
           <Image src="/images/left-image.png" alt="recipe image" fill />
@@ -33,7 +33,7 @@ function ImageTextBlock() {
         </Box>
       </Grid>
 
-      <Box display={{ initial: "block", md: "none" }}>
+      <Box display={{ initial: "block", sm: "none" }}>
         <GalleryCarousel />
       </Box>
 

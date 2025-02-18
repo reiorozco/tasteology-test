@@ -10,7 +10,7 @@ interface Props {
 
 function Card({ title, content, imageSrc }: Props) {
   return (
-    <Flex direction="column" gap="5">
+    <Flex direction="column" align="center" gap="5">
       <Image src={imageSrc} alt="card image" width="375" height="300" />
 
       <Box>

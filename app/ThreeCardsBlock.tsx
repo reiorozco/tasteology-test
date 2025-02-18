@@ -26,12 +26,17 @@ const tasteTheColours = [
 
 function ThreeCardsBlock() {
   return (
-    <Flex direction="column" className="py-16 px-20">
-      <Box width="30%" className="self-center">
+    <Flex
+      direction="column"
+      py={{ initial: "2", sm: "6", md: "4.5rem" }}
+      pt={{ initial: "6", sm: "8", md: "4.5rem" }}
+      px={{ initial: "3", sm: "8", md: "5rem" }}
+    >
+      <Box className="self-center">
         <Headline title="Taste the colours" align="center" />
       </Box>
 
-      <Grid columns="3" gap="2">
+      <Grid columns={{ initial: "1", sm: "3" }} gap="2">
         {tasteTheColours.map((taste) => (
           <Card
             key={taste.title}
