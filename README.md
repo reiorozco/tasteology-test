@@ -36,7 +36,7 @@
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 18.8 or later)
 - [Git](https://git-scm.com/)
 
 ### Installation Instructions
