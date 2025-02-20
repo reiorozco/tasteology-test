@@ -1,3 +1,5 @@
+Website: https://tasteology-test.vercel.app/
+
 **Modern responsive interface built with Next.js, Tailwind CSS, and TypeScript.**
 ## Technologies and Libraries Used
 - **Next.js**       was chosen to take advantage of Server-Side Rendering (SSR), which improves performance, SEO, and initial load times. It also makes it easy to integrate interactive client-side components using the `use client` directive only where needed.
